@@ -63,7 +63,6 @@ const SearchBar = () => {
    placeholder='Search...'
    value=""
    onChange={()=>{}}
-   type='text'
    />
    <IconButton type='submit' sx={{p:'10px', color:'red'
   }}>
