@@ -19,6 +19,7 @@ const Navbar = () => (
        }}>
       <img src={logo} alt="logo" height={45} />
     </Link>
+    <h3 style={{color:'white', paddingRight:'500px'}}>YT TV</h3>
     <SearchBar/>
   </Stack>
 );
