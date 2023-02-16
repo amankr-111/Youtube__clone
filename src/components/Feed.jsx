@@ -1,4 +1,4 @@
-
+import '../App.css'
 import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import Videos from "./Videos";

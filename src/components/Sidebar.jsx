@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css'
 import { Stack } from "@mui/material";
 import { categories } from "../utils/constants";
 
@@ -14,7 +15,7 @@ const Categories = ({selectedCategory, setSelectedCategory}) => (
     }}
   >
     {categories.map((category) => (
-     <button type="button" className="btn btn-outline-dark "
+     <button type="button" className="btn btn-custom"
         onClick={()=>setSelectedCategory(category.name)}
         style={{
           paddingBottom:'15px',
