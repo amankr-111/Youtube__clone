@@ -9,7 +9,7 @@ const Navbar = () => (
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={logo} alt="logo" height={45} />
     </Link>
-    <h1 style={{color:'#fff',paddingRight:'900px'}}>StreamVision</h1>
+    <h1 style={{color:'#fff',}}></h1>
     <SearchBar />
   </Stack>
 );
